@@ -41,7 +41,7 @@ def szamologep():
         eredmeny = szam1 * szam2
     else:
         szoveg = "nem értelmezhető a művelet"
-    kiiras()
+    kiiras(szam1, szam2, muvjel, eredmeny, szoveg)
 
 
 
@@ -52,7 +52,7 @@ def adatbekeres(szoveg):
     return muvjel   # visszatérési érték
 
 
-def kiiras():
+def kiiras(szam1, szam2, muvjel, eredmeny, szoveg):
     # kiírás
     print("-" * 20)
     if szoveg == "":
