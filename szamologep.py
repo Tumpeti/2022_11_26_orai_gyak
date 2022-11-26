@@ -60,4 +60,3 @@ def kiiras(szam1, szam2, muvjel, eredmeny, szoveg):
     else:
         print(szoveg)
     print("-" * 20)
-# EZT LÁTOD VIKI?
