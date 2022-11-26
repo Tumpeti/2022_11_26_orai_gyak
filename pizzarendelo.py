@@ -61,4 +61,6 @@ rendeleskiiras():
 
 statisztika1(): 2, 3 4 stb....
 
+
+ne legyenek kódismétlések, azokat ki kell szervezni függvénybe
 """
