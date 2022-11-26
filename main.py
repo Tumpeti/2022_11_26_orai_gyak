@@ -18,6 +18,10 @@ print(e_betuk_szama)
 import szamologep
 # szamologep.osszeadas()
 # szamologep.kivonas()
-szamologep.szamologep()
+# szamologep.szamologep()
 
+
+import fuggvenyek
+fuggvenyek.fv1()
+fuggvenyek.fv2()
 
