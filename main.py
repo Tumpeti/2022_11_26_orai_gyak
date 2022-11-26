@@ -21,7 +21,8 @@ import szamologep
 # szamologep.szamologep()
 
 
-import fuggvenyek
+"""import fuggvenyek
 fuggvenyek.fv1()
-fuggvenyek.fv2()
+fuggvenyek.fv2()"""
 
+import pizzarendelo
