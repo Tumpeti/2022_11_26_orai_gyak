@@ -64,3 +64,40 @@ statisztika1(): 2, 3 4 stb....
 
 ne legyenek kódismétlések, azokat ki kell szervezni függvénybe
 """
+
+pizza_fajtak = []
+pizza_meretek = []
+pizza_feltetek = []
+pizza_arak = []
+i = 0
+ar = 0
+import pizza_fuggvenyek
+while True:
+    rendeles = input("Kíván pizzarendelést leadni? igen/nem ")
+    if rendeles == "nem":
+        break
+    pizza_fajtak.append(pizza_fuggvenyek.fajta_bekero())
+    if pizza_fajtak[i] == "sa":
+        ar = 1000
+    elif pizza_fajtak[i] == "go":
+        ar = 1100
+    elif pizza_fajtak[i] == "so":
+        ar = 1200
+    pizza_meretek.append(pizza_fuggvenyek.meret_bekero())
+    if pizza_meretek[i] == "ki":
+        ar = ar * 0.9
+    elif pizza_meretek[i] == "no":
+        ar = ar * 1
+    elif pizza_meretek[i] == "na":
+        ar = ar * 1.1
+    pizza_feltetek.append(pizza_fuggvenyek.feltet_bekero())
+    if pizza_feltetek[i] == "igen":
+        ar += 50
+    pizza_arak.append(ar)
+    i += 1
+print(pizza_arak)
+print(pizza_fajtak)
+print(pizza_meretek)
+print(pizza_feltetek)
+
+

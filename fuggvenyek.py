@@ -17,3 +17,8 @@ def fv2():
     print(f"fv2 {szam1}")
     print(f"fv1 {szam2}")
     print(f"fv1 {szam}")
+
+
+
+
+d

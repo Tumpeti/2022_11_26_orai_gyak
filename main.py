@@ -14,7 +14,7 @@ while i < len(e_betuk):
     i += 1
 print(e_betuk_szama)
 """
-
+import fuggvenyek
 import szamologep
 # szamologep.osszeadas()
 # szamologep.kivonas()
@@ -26,3 +26,6 @@ fuggvenyek.fv1()
 fuggvenyek.fv2()"""
 
 import pizzarendelo
+fuggvenyek.bekero()
+fuggvenyek.meret
+
